@@ -1,0 +1,147 @@
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        canvas {
+            border: 3px solid purple;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #downloadLink {
+            display: none;
+        }
+
+        /* Add this CSS rule */
+
+        button.color-button {
+            background-image: linear-gradient(to right, #c546ea, #ff424d);
+        }
+
+        button.brush-button {
+            background-image: linear-gradient(to right, #F08080, #FF0000);
+        }
+
+        button.save-button {
+            background-image: linear-gradient(to right, #fd4040, #ffa45e);
+        }
+
+        /* Add this CSS rule */
+
+        .brush-shape-button {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .brush-shape-button:hover {
+            background-color: #0069d9;
+        }
+
+        .brush-shape-button.selected {
+            background-color: #0056b3;
+        }
+
+        /* Add this CSS rule */
+
+        .gradient-button {
+            background-image: linear-gradient(to right, #ff9966, #ff5e62);
+            color: white;
+            padding: 5px 10px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .gradient-button:hover {
+            background-image: linear-gradient(to right, #ff7c43, #ff424d);
+        }
+
+        /* Add this CSS rule */
+
+        .toolbar {
+            background-color: #FFFFFF;
+            padding: 12px;
+            border-radius: 10px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #uploadButton {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin-left: 1rem;
+        }
+
+        #uploadButton:hover {
+            background-color: #0069d9;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #gray;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+
+        .bar_name {
+            background-color: #FFFFFF;
+            padding: 2px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pixelize-button {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
