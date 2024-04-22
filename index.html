@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+	<link href="CSS/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bar_name">
+        <h1>Paint HTML</h1>
+    </div>
+    <div style="display: flex; justify-content: center; width: 100%;">
+        <canvas id="canvas" width="800" height="600"></canvas>
+    </div>
+    <br>
+    <div class="toolbar">
+        <button id="colorPickerButton" class="color-button">Color</button>
+        <input type="color" id="colorPicker" value="#000000">
+        <button id="eraserButton">Eraser</button>
+        <button id="mixButton" class="gradient-button">Mix Colors</button>
+        <button id="brushSizeButton" class="brush-button">Brush Size</button>
+        <input type="range" id="brushSize" min="1" max="50" value="10">
+        <button id="squareBrushButton" class="brush-shape-button">Square</button>
+        <button id="roundBrushButton" class="brush-shape-button selected">Round</button>
+        <button id="saveButton" class="save-button">Save</button>
+        <input type="file" id="imageInput" accept="image/*" style="display: none;">
+        <button id="uploadButton">Upload Image</button>
+        <button id="drawImagePixelsButton" class="gradient-button">Draw Pixel</button>
+        <button id="drawCirclesButton">Draw Circles</button>
+
+    </div>
+    <br>
+    <a id="downloadLink" download="drawing.png">Download</a>
+	<script src="app.js"></script>
+</body>
+
+</html>
