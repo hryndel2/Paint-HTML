@@ -3,7 +3,7 @@
 
 Programming languages:
 + HTML
-+ Java
++ JavaScript
 ### Instructions:
 + **ColorButton:** Opens a color picker to select a new brush color.
 + **EraserButton:** Toggles eraser mode, allowing you to erase strokes with white.
